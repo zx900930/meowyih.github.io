@@ -80,32 +80,33 @@
 </div>
 <div class="grid-container">
 
-  <div class="grid-label font-weight-bold" id="label-atkper">攻擊力百分比</div> 
-  <div class="grid-label font-weight-bold" id="label-defper">防禦力百分比</div>
-  <div class="grid-label font-weight-bold" id="label-hpper">生命力百分比</div>
+  <div class="grid-label font-weight-bold" id="label-atkper">攻擊力百分比</div>
+  <div class="grid-label font-weight-bold" id="label-hpper">生命力百分比</div> 
+  <div class="grid-label font-weight-bold" id="label-eff">效果命中</div>
   <input type="number" class="form-control" id="atkper" min="0" max="48" placeholder="">
-  <input type="number" class="form-control" id="defper" min="0" max="48" placeholder="">
   <input type="number" class="form-control" id="hpper" min="0" max="48" placeholder="">
+  <input type="number" class="form-control" id="eff" min="0" max="48" placeholder="">
   
-  <div class="grid-label font-weight-bold" id="label-atkflat">攻擊力數值</div> 
-  <div class="grid-label font-weight-bold" id="label-defflat">防禦力數值</div>
-  <div class="grid-label font-weight-bold" id="label-hpflat">生命力數值</div>
+  <div class="grid-label font-weight-bold" id="label-atkflat">攻擊力數值</div>
+  <div class="grid-label font-weight-bold" id="label-hpflat">生命力數值</div> 
+  <div class="grid-label font-weight-bold" id="label-res">效果抗性</div>
   <input type="number" class="form-control" id="atkflat" min="0" max="282" placeholder="">
-  <input type="number" class="form-control" id="defflat" min="0" max="198" placeholder="">
-  <input type="number" class="form-control" id="hpflat" min="0" max="1200" placeholder="">  
+  <input type="number" class="form-control" id="hpflat" min="0" max="1200" placeholder="">
+  <input type="number" class="form-control" id="res" min="0" max="48" placeholder="">
+    
   
   <div class="grid-label font-weight-bold" id="label-critch">暴擊率</div> 
-  <div class="grid-label font-weight-bold" id="label-critdmg">暴擊傷害</div> 
+  <div class="grid-label font-weight-bold" id="label-defper">防禦力百分比</div>
   <div class="grid-label font-weight-bold" id="label-spd">速度值</div>   
   <input type="number" class="form-control" id="critch" min="0" max="48" placeholder="">
-  <input type="number" class="form-control" id="critdmg" min="0" max="48" placeholder="">
+  <input type="number" class="form-control" id="defper" min="0" max="48" placeholder="">
   <input type="number" class="form-control" id="spd" min="0" max="24" placeholder="">
 
-  <div class="grid-label font-weight-bold" id="label-eff">效果命中</div>
-  <div class="grid-label font-weight-bold" id="label-res">效果抗性</div>
+  <div class="grid-label font-weight-bold" id="label-critdmg">暴擊傷害</div>
+  <div class="grid-label font-weight-bold" id="label-defflat">防禦力數值</div>
   <div class="grid-label font-weight-bold" id="label-score">裝備分數</div>
-  <input type="number" class="form-control" id="eff" min="0" max="48" placeholder="">
-  <input type="number" class="form-control" id="res" min="0" max="48" placeholder="">
+  <input type="number" class="form-control" id="critdmg" min="0" max="48" placeholder="">
+  <input type="number" class="form-control" id="defflat" min="0" max="198" placeholder="">
   <div class="grid-result" id="score">0</div>
   
   <button type="button" class="btn btn-success text-center align-middle font-weight-bold" id="btn-calc" onclick="calc()">計算</button>
